@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just a form</title>
+</head>
+<body>
+    <!--
+    <h1>MY FAVOURITE FOOD</h1>
+    <h3>It is Maggie</h3>
+    <p>Maggie is delicious and can be prepare in two minutes(as they said)</p>
+    <img src="./Maggie.jpg" alt="Maggie noodles" width="250">
+    <a href="https://www.youtube.com/watch?v=DTlCC4-XcoU" target="_blank"><br> Maggie recipe</a>
+    <hr>
+    <h1>Different fruits</h1>
+    <ol type="i" reversed>
+        <li> Mango <img src="./mngo.jpg" alt="Mango" width="50"></li>
+        <li> Banana <img src="./bnana.jpg" alt="Banana" width="50"></li>
+        <li> Pineapple <img src="./pnapl.jpg" alt="Pineapple" width="50"></li>
+    </ol>
+    <hr>
+    <h1>Nested list for market</h1>
+    <ol>
+        <li>Groceries</li>
+        <li>Fruits
+            <ul type="circle">
+                <li>Banana</li>
+                <li>Mango</li>
+                <li>Pineapple</li>
+            </ul>
+        </li>
+        <li>Vegetables</li>
+    </ol>-->
+
+    <h1>Form</h1>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" maxlength="15" placeholder="Enter your name" required><br>
+
+        <label for="gender">Gender</label>
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" value="Male" id="Male">
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female"><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="Your email id" required><br>
+
+        <label for="mobile">Mobile Number</label><br>
+        <select name="codes" id="codes">
+            <option value="+91">+91</option>
+            <option value="+08">+08</option>
+            <option value="+61">+61</option>
+        </select>
+        <input type="tel" name="mobile" id="mobile"><br>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Create your password" required><br>
+
+        <label for="passout year">Passout Year</label>
+        <input type="date" name="passout year" id="passout year"><br>
+
+        <label for="state">Where are you from:</label>
+        <input type="text" list="state" placeholder="select your state">
+        <datalist id="state">
+            <option value="Uttar Pradesh">
+            <option value="Sikkim">
+            <option value="Delhi">
+            <option value="West Bengal">
+        </datalist>
+        <br>
+        <h3>Language you know</h3><br>
+        <input type="checkbox" name="language" id="English">
+        <label for="English">English</label><br>
+        <input type="checkbox" name="language" id="Bengali">
+        <label for="Bengali">Bengali</label><br>
+        <input type="checkbox" name="language" id="Hindi">
+        <label for="Hindi">Hindi</label>
+        <br>
+
+        <label for="submission time">Submission time</label>
+        <input type="time" name="submission time" id="submission time"><br>
+        <input type="submit" value="Submit" style="background-color: aqua;">
+    </form>
+    <br>
+
+    <iframe src="./index2.html" frameborder="0px" height="100px" width="800px"></iframe>
+    <h1>Github testing</h1>
+
+
+</body>
+</html>
